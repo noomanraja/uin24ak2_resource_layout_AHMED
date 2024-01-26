@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E1E5EE;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #2A324B;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.nav-button {
+    background-color: #2A324B;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px 0 0; /* Legger til høyre margin */
+}
+
+.nav-button.active {
+    color: #2A324B;
+    background-color: #fff;
+}
+
+#content {
+    background-color: #F0F0F0; /* Light grey background */
+    color: #000; /* Black text */
+    padding: 20px;
+}
+
+#content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content ul li {
+    margin-bottom: 10px;
+}
+
+#content ul li a {
+    color: #000; /* Black link text */
+    text-decoration: none;
+}
